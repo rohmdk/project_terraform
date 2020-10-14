@@ -173,7 +173,7 @@ resource "azurerm_resource_group" "example" {
 }
 
 resource "azurerm_recovery_services_vault" "example" {
-  name                = "VM-recovery_vault"
+  name                = "VM-recovery-vault"
   location            = azurerm_resource_group.example.location
   resource_group_name = azurerm_resource_group.example.name
   sku                 = "Standard"
