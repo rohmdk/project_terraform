@@ -169,7 +169,7 @@ resource "azurerm_linux_virtual_machine" "myterraformvm" {
 
 resource "azurerm_resource_group" "example" {
   name     = "tfex-recovery_vault"
-  location = "West US"
+  location = "eastus"
 }
 
 resource "azurerm_recovery_services_vault" "example" {
